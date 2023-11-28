@@ -1,0 +1,38 @@
+ 
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+ body{
+   font-family: 'Open Sans', sans-serif;
+   background-image:url('./assets/background_png.jpg');
+   background-size: cover ;
+   background-repeat: no-repeat;
+ }
+ .center-div{
+   padding-top: 10%;
+ }
+ .btn.btn-success{
+   margin-top: 1em;
+ }
+ form{
+   padding: 0 .5em;
+ }
+#login .title > span{
+  font-size: .8em;
+}
+.actors{
+  font-size: xx-large;
+  padding-left: 15em;
+
+}
+
+.row{
+  margin-top: 20px;
+  justify-content: space-evenly;
+  
+}
+.card{
+  margin-bottom: 20px;
+}
+.images{
+  margin-top: 10px;
+}

@@ -1,0 +1,33 @@
+
+<%-include('header')-%>
+              <!--  NAVBAR -->
+<nav class="navbar " >
+    <div class="container-fluid" >
+      <a class="navbar-brand actors"><b>ACTORS</b></a>
+      <form class="d-flex" role="search">
+       
+        <button class="btn btn-dark logout-button" ><a style="text-decoration: none;" href="/route/logout">Logout</a></button>
+      </form>
+    </div>
+  </nav>
+
+     <!-- CARD -->
+<div class="container-fluid">
+    <div class="row">
+        <% products.forEach(function(value){ %>
+            <div class="card" style="width: 18rem;">
+              <img src="<%= value.src %>" class="images" alt="image">
+              <div class="card-body">
+                <h5 class="card-title"><b><%= value.name %></b> <small><%= value.bornin %></small></h5>
+                <p class="card-text"><%= value.aboutas %></p>
+                
+              </div>
+            </div>
+               
+          
+            <% }) ; %>
+    </div>
+</div>
+  
+ 
+<%-include('footer')-%>
